@@ -419,17 +419,25 @@
   border-radius: 3px;
   background: #FFF;
   cursor: default;
-  -webkit-box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
-          box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
-  -webkit-transition: 300ms ease 0s;
-  -moz-transition: 300ms ease 0s;
-  -ms-transition: 300ms ease 0s;
-  -o-transform: 300ms ease 0s;
-  transition: 300ms ease 0s;
+  -webkit-box-shadow: inset 0 0 1px #FFF,
+ inset 0 1px 7px #EBEBEB,
+ 0 3px 6px -3px #BBB;
+          box-shadow: inset 0 0 1px #FFF,
+ inset 0 1px 7px #EBEBEB,
+ 0 3px 6px -3px #BBB;
+/* Disabled state;
+/* Base;
+ *
+/* Values;
+ *
+/* Markings;
+ *
+/* Horizontal layout;
+ *
 }
 
-.noUi-active {
-  -webkit-transform: scale3d(1.5, 1.5, 1);
+/* Vertical layout;
+ *
   transform: scale3d(1.5, 1.5, 1);
 }
 
@@ -617,10 +625,10 @@
   background-color: rgba(24, 206, 15, 0.3);
 }
 
-.slider.slider-success .noUi-handle {
-  background-color: #18ce0f;
-}
-
+/*!
+ * Datepicker for Bootstrap v1.7.0-dev (https://github.com/uxsolutions/bootstrap-datepicker)
+ *
+ * Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
 .slider.slider-warning .noUi-connect, .slider.slider-warning.noUi-connect {
   background-color: #FFB236;
 }
@@ -3877,31 +3885,31 @@ img {
 
 .popover.popover-success .popover-header {
   color: #FFFFFF;
-  opacity: .6;
+/* --------------------------------
+
+Nucleo Outline Web Font - nucleoapp.com/
+License - nucleoapp.com/license/
+Created using IcoMoon - icomoon.io
+
+
+/*------------------------
+	base class definition
 }
 
-.tooltip.bs-tooltip-right .arrow:before {
-  border-right-color: #FFFFFF;
+/*------------------------
+  change icon size
+/*----------------------------------
+  add a square/circle background
+/*------------------------
+  list icons
 }
 
-.tooltip.bs-tooltip-top .arrow:before {
-  border-top-color: #FFFFFF;
-}
-
-.tooltip.bs-tooltip-bottom .arrow:before {
-  border-bottom-color: #FFFFFF;
-}
-
-.tooltip.bs-tooltip-left .arrow:before {
-  border-left-color: #FFFFFF;
-}
-
-.tooltip-inner {
-  padding: 0.5rem 0.7rem;
-  min-width: 130px;
-  background-color: #FFFFFF;
-  font-size: 14px;
-  color: inherit;
+/*------------------------
+  spinning icons
+/*------------------------
+  rotated/flipped icons
+/*------------------------
+	font icons
   -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
@@ -7278,21 +7286,6 @@ Created using IcoMoon - icomoon.io
   padding: 10px;
 }
 
-/* Download section */
-.download-help-text {
-  margin-bottom: 1.25rem;
-}
-
-.download-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  justify-content: center;
-}
-
-.download-links .btn {
-  min-width: 240px;
-}
 /* Social button style */
 .cc-facebook:hover i {
   color: #3b5998;

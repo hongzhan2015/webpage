@@ -32,14 +32,7 @@ You can reduce the last value (for example `170px`) to make images smaller.
 
 
 ## Download the files I changed
-- Open the website and click **Downloads** in the top menu.
-- In the **Download Changed Files** section, click each button to download:
-  - `README.md`
-  - `index.html`
-  - `scripts/main.js`
-  - `styles/main.css`
-
-If you want one zip file instead, run:
+If you want one zip file with the changed files, run:
 
 ```bash
 bash scripts/export_changed_files.sh
@@ -47,16 +40,21 @@ bash scripts/export_changed_files.sh
 
 This creates `changed-files.zip` in the project root.
 
-## How to push to your GitHub
-From your local machine (with your GitHub credentials configured):
+## How to apply these changes to your GitHub
+Run these commands in your local repository:
 
 ```bash
+git fetch origin
+git checkout work
+git pull origin work
 git push origin work
 ```
 
-If your branch has a different name, run:
+If your branch name is different:
 
 ```bash
 git branch --show-current
 git push origin <your-branch-name>
 ```
+
+If GitHub asks for authentication, use your GitHub username and a Personal Access Token (PAT) as the password.
