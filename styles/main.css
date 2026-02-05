@@ -7251,8 +7251,7 @@ Created using IcoMoon - icomoon.io
 
 /* Portfolio Cases (simple editable layout) */
 .portfolio-help-text {
-  max-width: 860px;
-  margin: 0 auto 24px;
+  display:none
 }
 
 .portfolio-case-card {
