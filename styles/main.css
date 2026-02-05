@@ -7240,6 +7240,43 @@ Created using IcoMoon - icomoon.io
 }
 
 /* Footer */
+
+/* Portfolio Cases (simple editable layout) */
+.portfolio-help-text {
+  max-width: 860px;
+  margin: 0 auto 24px;
+}
+
+.portfolio-case-card {
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.portfolio-case-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.portfolio-case-list {
+  padding-left: 20px;
+}
+
+.portfolio-case-list li {
+  margin-bottom: 8px;
+}
+
+/* Portfolio image size override (smaller and less cropped) */
+.portfolio-case-image {
+  height: clamp(140px, 22vw, 190px);
+  object-fit: contain;
+  object-position: center;
+  background: #f7f7f7;
+  padding: 10px;
+}
 /* Social button style */
 .cc-facebook:hover i {
   color: #3b5998;
