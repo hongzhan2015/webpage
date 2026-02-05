@@ -1,7 +1,8 @@
 # hzhan.github.io
 Hong's personal website
+
 ## Quick edit guide for portfolio projects
-If want to edit the four portfolio projects, open:
+If you want to edit your four portfolio projects, open:
 
 - `scripts/main.js`
 
@@ -29,16 +30,31 @@ You can reduce the last value (for example `170px`) to make images smaller.
 - Added safer dynamic link handling in `scripts/main.js` (`sanitizeUrl`) to block unsafe URL schemes.
 - Added basic input length limits on contact form fields.
 
-## How to push to your GitHub
-From your local machine (with your GitHub credentials configured):
+
+## Download the files I changed
+If you want one zip file with the changed files, run:
 
 ```bash
+bash scripts/export_changed_files.sh
+```
+
+This creates `changed-files.zip` in the project root.
+
+## How to apply these changes to your GitHub
+Run these commands in your local repository:
+
+```bash
+git fetch origin
+git checkout work
+git pull origin work
 git push origin work
 ```
 
-If the branch has a different name, run:
+If your branch name is different:
 
 ```bash
 git branch --show-current
 git push origin <your-branch-name>
 ```
+
+If GitHub asks for authentication, use your GitHub username and a Personal Access Token (PAT) as the password.
