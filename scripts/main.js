@@ -179,6 +179,3 @@ $("a.smooth-scroll")
       }
     }
   });
- 
-EOF
-)
