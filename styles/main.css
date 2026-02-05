@@ -3893,13 +3893,17 @@ Created using IcoMoon - icomoon.io
 
 
 /*------------------------
+	base class definition
 }
 
-.tooltip.bs-tooltip-left .arrow:before {
 /*------------------------
+  change icon size
+/*----------------------------------
+  add a square/circle background
+/*------------------------
+  list icons
 }
 
-.tooltip-inner {
 /*------------------------
   spinning icons
 /*------------------------
