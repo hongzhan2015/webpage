@@ -32,7 +32,14 @@ You can reduce the last value (for example `170px`) to make images smaller.
 
 
 ## Download the files I changed
-To export only the files I changed into a single zip file, run:
+- Open the website and click **Downloads** in the top menu.
+- In the **Download Changed Files** section, click each button to download:
+  - `README.md`
+  - `index.html`
+  - `scripts/main.js`
+  - `styles/main.css`
+
+If you want one zip file instead, run:
 
 ```bash
 bash scripts/export_changed_files.sh

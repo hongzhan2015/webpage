@@ -7277,6 +7277,22 @@ Created using IcoMoon - icomoon.io
   background: #f7f7f7;
   padding: 10px;
 }
+
+/* Download section */
+.download-help-text {
+  margin-bottom: 1.25rem;
+}
+
+.download-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.download-links .btn {
+  min-width: 240px;
+}
 /* Social button style */
 .cc-facebook:hover i {
   color: #3b5998;
