@@ -6,11 +6,10 @@ const PORTFOLIO_CASES = [
     title: "Project 1: Conventional TEM Work",
     image: "images/JCB_image_1.jpg",
     imageAlt: "Conventional TEM project image",
-    summary: "Conventional transmission electron microscopy workflows from sample preparation to imaging and interpretation.",
+    summary: "Sample Preparation for Conventional Transmission Electron Microscopy workflows.",
     details: [
-      "Add representative panel images from your published paper.",
-      "Include one line describing sample prep and staining conditions.",
-      "Optional: link to publication DOI or journal page."
+      "Drosophila melanogaster 3rd instar larval neuromuscular junction.",
+      "Sample preparation steps.",
     ],
     link: {
       text: "Add paper link",
@@ -21,14 +20,14 @@ const PORTFOLIO_CASES = [
     title: "Project 2: Negative Staining Work",
     image: "images/NC_image_1.jpg",
     imageAlt: "Negative staining project image",
-    summary: "Negative stain EM work highlighting screening, particle quality checks, and method optimization.",
+    summary: "Negative stain TEM for protein structure imaging.",
     details: [
-      "Replace this image with your own representative micrograph.",
-      "Add 1-2 sentences about buffer conditions and stain type.",
-      "List key outcomes, such as particle integrity or sample heterogeneity."
+      "Imaging of Nodaviridea, Flock house virus, viral genome replication protocrown formed from multimerization of protein A.",
+      "Purified protocrown was fixed using 2% Uranylacetate and imaging with Talos FC200 at pixel size 0.2646 nm.",
+      "Add Figure legend"
     ],
     link: {
-      text: "Add example dataset",
+      text: "Paper link",
       url: "#"
     }
   },
